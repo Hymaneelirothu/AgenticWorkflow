@@ -1,5 +1,2 @@
-streamlit==1.4.0
-transformers==4.11.3
-torch==1.9.0
-    headers = {"Authorization": f"Bearer {HF_API_KEY}"}
-    headers = {"Authorization": f"Bearer {HF_API_KEY}"}
+streamlit
+requests
