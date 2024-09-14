@@ -1,8 +1,7 @@
 import streamlit as st
-from agents.plan_agent import PlanAgent
-from agents.tool_agent import ToolAgent
-from pipeline.workflow_pipeline import WorkflowPipeline
-
+from tool_agent import ToolAgent
+from plan_agent import PlanAgent
+from workflow_pipeline import WorkflowPipeline
 # Instantiate the agents
 plan_agent = PlanAgent()
 tool_agent = ToolAgent()
